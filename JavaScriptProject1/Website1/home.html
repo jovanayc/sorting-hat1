@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hogwarts Sorting Hat</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+
+    <body>
+        <!--Welcome body-->
+        <h1>Welcome to the sorting hat</h1>
+        <p>This will be the website that sorts students into their proper houses. Hope you like it!</p>
+        
+        <!--Name submission-->
+        <h2>Insert your UserID here</h2>
+        <form id="user-name">
+            <label for="name">User ID</label>
+            <input type="text" id="name" name="id">
+
+        </form>
+
+        <button type="button" value="Submit" size="10" onclick="getUserName()">Submit</button>
+
+
+        <br>
+        
+        <!--Quiz button, we want button to link to a relative page-->
+        <button onclick="location.href='./startQuiz.html'" type="button">Start Quiz</button>
+
+        <!--Console Log Check-->
+        <script>
+            console.log("button check complete");
+        </script>
+
+    </body>
+
+</html>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 1</title>
+        <!--call JavaScript code-->
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+
+    <body>
+        <!--Grade Form-->
+        <h2>What grade are you in</h2>
+        <form id="user-grade" name="grade" class="questions">
+            <div id="5th" name="grade"class="questions">
+                <input type="radio" id="5th" name="grade" value="5th">
+                <label for="5th">5th</label>
+            </div>
+            <div id="6th" name="grade" class="questions">
+                <input type="radio" id="6th" name="grade" value="6th">
+                <label for="6th">6th</label>
+            </div>
+            <div id="7th" name="grade" class="questions">
+                <input type="radio" id="7th" name="grade" value="7th">
+                <label for="7th">7th</label> 
+            </div>
+            <div id="8th" name="grade" class="questions">
+                <input type="radio" id="8th" name="grade" value="8th">
+                <label for="8th">8th</label>
+            </div>
+
+            <button type="button" value="Submit" size="10" onclick="getUserGrade()">Submit</button>
+
+        </form>
+
+        <br>
+
+        <!--Next button, we want button to link to next question page-->
+        <button onclick="location.href='./question2-teacher.html'" type="button">Next Question</button>
+
+
+    </body>
+</html>
+
+
+<!--required minlength="2" maxlength="14" 
+
+    // get everythning by name, if statement for what was checked, then return that value
+
+-->
