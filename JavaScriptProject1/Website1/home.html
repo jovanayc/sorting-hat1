@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hogwarts Sorting Hat</title>
-        <script type="text/javascript" src="index.js"></script>
+        <title>Sorting Hat Quiz</title>
+        <link rel="stylesheet" href="colors-pg1.css">
     </head>
 
     <body>
         <!--Welcome body-->
-        <h1>Welcome to the sorting hat</h1>
-        <p>This will be the website that sorts students into their proper houses. Hope you like it!</p>
+        <img src="harry-potter-logo-gold.png"/>
+        <h1>Sorting Hat Quiz</h1>
+        <p>The magic of the Sorting Hat in your Middle School</p>
+
+
         
         <!--Name submission-->
-        <h2>Insert your UserID here</h2>
+        <h3>Enter your name to begin:</h3>
         <form id="user-name">
-            <label for="name">User ID</label>
-            <input type="text" id="name" name="id">
+            <input type="text" id="name" name="id" style="padding: 2px; border-color: rgb(233, 233, 233);">
 
         </form>
-
-        <button type="button" value="Submit" size="10" onclick="getUserName()">Submit</button>
-
+        <button onclick="storageSave()">Save</button>
+        <button onclick="storageLoad()">Load</button>
+        <button onclick="storageHousing()">My House</button>
 
         <br>
         
-        <!--Quiz button, we want button to link to a relative page-->
-        <button onclick="location.href='./startQuiz.html'" type="button">Start Quiz</button>
+        <!--Quiz button, we want button to link to a relative page and to run getUserName function-->
+        <button onclick="getUserName();location.href='./startQuiz.html'" type="button">Start Quiz</button>
+
+        <!--JS Script-->
+        <script type="text/javascript" src="index.js"></script>
 
     </body>
 

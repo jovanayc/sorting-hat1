@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(239, 170, 22);
+    
+    align-items: center;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    block-size: 10;
+    color: rgb(194, 153, 18);
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-size: small;
+    color: black;
+    text-align: center;
+}
+
+button{
+    max-width: 30%
+}
+
+img{
+    position: center;
+    size: 20%;
+    display: block;
+    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+}

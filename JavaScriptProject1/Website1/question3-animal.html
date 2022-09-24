@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 3</title>
+        <!--call JavaScript code and CSS styling-->
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="colors-pg2.css">
+    </head>
+
+    <body>
+        <!--Grade Form-->
+        <img src="harry-potter-logo-gold.png"/>
+
+        <h2>What is your favorite animal?</h2>
+        <form id="user-animal" name="animal" class="questions">
+            <div id="unicorn" name="animal"class="questions">
+                <input type="radio" id="unicorn" name="animal" value="unicorn">
+                <label for="unicorn">Sparkling Unicorn</label>
+            </div>
+            <div id="dragon" name="animal"class="questions">
+                <input type="radio" id="dragon" name="animal" value="dragon">
+                <label for="dragon">Protective Dragon</label>
+            </div>
+            <div id="phoenix" name="animal"class="questions">
+                <input type="radio" id="phoenix" name="animal" value="phoenix">
+                <label for="phoenix">Rising Phoenix</label>
+            </div>
+            <div id="basilisk" name="animal"class="questions">
+                <input type="radio" id="basilisk" name="animal" value="basilisk">
+                <label for="basilisk">Determined Basilisk</label>
+            </div>
+
+            
+            <button type="button" value="Submit" size="10" onclick="getUserAnimal()">Submit</button>
+
+
+        </form>
+
+        <br>
+
+        <button onclick="getHouse();location.href='./house.html'" type="button">Find out my house</button>
+
+    </body>
+</html>
